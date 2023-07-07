@@ -3,15 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+* Ruby version ruby-3.1.2
 
-* Ruby version
+* chruby to change versions
 
-* System dependencies
-
-* Configuration
-
-* Database creation
+* MySql database, configure user and password on mysql cli so that it has permissions to create and migrate db
+* rails db:create
 
 * Database initialization
 

@@ -2,6 +2,7 @@
   <h2>Welcome</h2>
   <p>A simulated log in form</p>
 
+  <% @task.errors.add(:name)%>
   <%= form_tag(access_path) do %>
     <table summary="login">
       <tr>
